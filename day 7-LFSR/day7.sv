@@ -1,4 +1,5 @@
 // LFSR
+// It is used as pseudo random no. genrattion
 module day7 (
   input     wire      clk,
   input     wire      reset,

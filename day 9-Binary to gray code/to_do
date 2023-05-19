@@ -1,0 +1,5 @@
+understanding genvar
+
+  genvar i;
+  for (i=VEC_W-2; i>=0; i=i-1)
+    assign gray_o[i] = bin_i[i+1] ^ bin_i[i];
